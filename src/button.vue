@@ -14,7 +14,22 @@
 <script>
     export default {
         name: "g-button",
-        props: ['icon', 'icon_position']
+        // props: ['icon', 'icon_position']
+        props: {
+            'icon': '',
+            'icon_position': {
+                type: String,
+                default: 'left',
+                //属性检查器
+                validator(value) { //value -> 用户传入的icon_position的值
+                    if (value !== 'left' && value !== 'right') {
+                        return false
+                    } else {
+                        return true
+                    }
+                }
+            }
+        }
     }
 </script>
 
