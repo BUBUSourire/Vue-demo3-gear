@@ -7,21 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gear</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        :root {
-            --button-height:32px;
-            --font-size:14px;
-            --color:#333;
-            --button-bg:white;
-            --button-active-bg:#eee;
-            --border-radius: 4px;
-            --border-color:#999;
-            --border-color-hover:#666;
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
         }
+
+        :root {
+            --button-height: 32px;
+            --font-size: 14px;
+            --color: #333;
+            --button-bg: white;
+            --button-active-bg: #eee;
+            --border-radius: 4px;
+            --border-color: #999;
+            --border-color-hover: #666;
+        }
+
         #app {
             margin: 20px;
         }
@@ -32,8 +42,11 @@
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
+    <g-button icon="setting" icon_position="left">按钮</g-button>
+    <g-button icon="setting" icon_position="right">按钮</g-button>
+    <g-button>按钮</g-button>
 </div>
 <script src="./src/app.js"></script>
+<script src="https://at.alicdn.com/t/font_1403937_6lkodhewi3u.js"></script>
 </body>
 </html>
