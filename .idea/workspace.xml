@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <updated>1568097825668</updated>
       <workItem from="1568097828128" duration="35000" />
       <workItem from="1568097864171" duration="2498000" />
-      <workItem from="1568100705695" duration="12300000" />
+      <workItem from="1568100705695" duration="14042000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568125920816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加加载状态">
+      <created>1568126566138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568126566138</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,8 @@
     <MESSAGE value="添加icon 和 icon_position属性" />
     <MESSAGE value="验证icon_position为left或right中的一个&#10;设置默认值为left（避免出现icon_undefined）" />
     <MESSAGE value="创建Icon.vue组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Icon.vue组件" />
+    <MESSAGE value="添加加载" />
+    <MESSAGE value="添加加载状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加加载状态" />
   </component>
 </project>
