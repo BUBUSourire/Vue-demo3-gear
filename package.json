@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/BUBUSourire/Vue-demo3-gear/issues"
   },
-  "homepage": "https://github.com/BUBUSourire/Vue-demo3-gear#readme"
+  "homepage": "https://github.com/BUBUSourire/Vue-demo3-gear#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
