@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="创建 icon group">
+      <change afterPath="$PROJECT_DIR$/src/Button_group.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +59,7 @@
       <updated>1568097825668</updated>
       <workItem from="1568097828128" duration="35000" />
       <workItem from="1568097864171" duration="2498000" />
-      <workItem from="1568100705695" duration="14042000" />
+      <workItem from="1568100705695" duration="15311000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568126566138</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加click事件&#10;icon与loading转换">
+      <created>1568128332378</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568128332378</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
     <MESSAGE value="创建Icon.vue组件" />
     <MESSAGE value="添加加载" />
     <MESSAGE value="添加加载状态" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加加载状态" />
+    <MESSAGE value="添加click事件&#10;icon与loading转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加click事件&#10;icon与loading转换" />
   </component>
 </project>
