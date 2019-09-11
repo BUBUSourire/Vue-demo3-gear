@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="使用 Karma + Mocha做单元测试">
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +63,7 @@
       <workItem from="1568097828128" duration="35000" />
       <workItem from="1568097864171" duration="2498000" />
       <workItem from="1568100705695" duration="15930000" />
-      <workItem from="1568165025002" duration="9395000" />
+      <workItem from="1568165025002" duration="18272000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -153,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568186346321</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="测试click&#10;使用 chai.spy监听回调函数">
+      <created>1568187013226</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568187013226</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +197,7 @@
     <MESSAGE value="第一个元素不需要margin-left" />
     <MESSAGE value="安装chai" />
     <MESSAGE value="使用 chai.expect添加四个测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 chai.expect添加四个测试用例" />
+    <MESSAGE value="测试click&#10;使用 chai.spy监听回调函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试click&#10;使用 chai.spy监听回调函数" />
   </component>
 </project>
