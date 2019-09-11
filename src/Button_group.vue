@@ -44,7 +44,7 @@
             &:hover {
                 position: relative;
                 z-index: 1;
-                border-color: red;
+                border-color: #666;
             }
         }
     }
