@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="创建 icon group">
-      <change afterPath="$PROJECT_DIR$/src/Button_group.vue" afterDir="false" />
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button_group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button_group.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,8 @@
       <updated>1568097825668</updated>
       <workItem from="1568097828128" duration="35000" />
       <workItem from="1568097864171" duration="2498000" />
-      <workItem from="1568100705695" duration="15311000" />
+      <workItem from="1568100705695" duration="15930000" />
+      <workItem from="1568165025002" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568128332378</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="创建 icon group">
+      <created>1568129442381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568129442381</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -144,6 +153,7 @@
     <MESSAGE value="添加加载" />
     <MESSAGE value="添加加载状态" />
     <MESSAGE value="添加click事件&#10;icon与loading转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加click事件&#10;icon与loading转换" />
+    <MESSAGE value="创建 icon group" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 icon group" />
   </component>
 </project>
