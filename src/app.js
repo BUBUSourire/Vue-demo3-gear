@@ -107,9 +107,11 @@ new Vue({
 
 //单元测试
 import chai from 'chai'
+
 const expect = chai.expect
 
 import spies from 'chai-spies'
+
 chai.use(spies)
 
 //测试test
@@ -117,8 +119,8 @@ chai.use(spies)
     //动态生成一个按钮
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
-        propsData:{
-            icon:'setting'
+        propsData: {
+            icon: 'setting'
         }
     })
     vm.$mount('#test') //挂载到#test的div中
@@ -135,9 +137,9 @@ chai.use(spies)
 {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
-        propsData:{
-            icon:'setting',
-            loading:true
+        propsData: {
+            icon: 'setting',
+            loading: true
         }
     })
     vm.$mount()
@@ -154,8 +156,8 @@ chai.use(spies)
     document.body.appendChild(div)
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
-        propsData:{
-            icon:'setting'
+        propsData: {
+            icon: 'setting'
         }
     })
     vm.$mount(div)
@@ -170,9 +172,9 @@ chai.use(spies)
     document.body.appendChild(div)
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
-        propsData:{
-            icon:'setting',
-            icon_position:'right'
+        propsData: {
+            icon: 'setting',
+            icon_position: 'right'
         }
     })
     vm.$mount(div)
@@ -187,13 +189,14 @@ chai.use(spies)
 {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
-        propsData:{
-            icon:'setting',
+        propsData: {
+            icon: 'setting',
         }
     })
     vm.$mount()
-    let spy = chai.spy(function () {})
-    vm.$on('click',spy)
+    let spy = chai.spy(function () {
+    })
+    vm.$on('click', spy)
     let button = vm.$el
     button.click()
     expect(spy).to.have.been.called()
