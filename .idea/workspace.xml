@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gear.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gear.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,7 @@
       <workItem from="1568100705695" duration="15930000" />
       <workItem from="1568165025002" duration="18405000" />
       <workItem from="1568268313464" duration="10656000" />
-      <workItem from="1568338432804" duration="8586000" />
+      <workItem from="1568338432804" duration="9246000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -190,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568351412905</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="更新 README.md">
+      <created>1568353996279</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568353996279</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +233,7 @@
     <MESSAGE value="npm 发布" />
     <MESSAGE value="npm 发布测试" />
     <MESSAGE value="npm 发布测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm 发布测试2" />
+    <MESSAGE value="更新 README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 README.md" />
   </component>
 </project>

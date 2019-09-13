@@ -1,4 +1,6 @@
-# Gear - Vue UI组件  [![Build Status](https://travis-ci.org/BUBUSourire/Vue-demo3-gear.svg?branch=master)](https://travis-ci.org/BUBUSourire/Vue-demo3-gear)
+# Gear - Vue UI组件  
+
+[![Build Status](https://travis-ci.org/BUBUSourire/Vue-demo3-gear.svg?branch=master)](https://travis-ci.org/BUBUSourire/Vue-demo3-gear)
 
 作者：BUBU_Sourire
 
