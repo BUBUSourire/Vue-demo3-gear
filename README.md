@@ -12,17 +12,19 @@
 
 ## 开始使用
 
-1. 安装
+1. 添加CSS样式
 
-- 使用本框架前，请在CSS中开启 border-box
+使用本框架前，请在CSS中开启 border-box
 
-  ```$xslt
-  *,*::before,*::after{box-sizing: border-box}
-  ```
+```html
+*,*::before,*::after{box-sizing: border-box}
+```
+
+IE8 及以上浏览器都支持此样式
 
 
 
-- 设置默认颜色等变量（后续改为SCSS变量）
+设置默认颜色等变量（后续改为SCSS变量）
 
 ```html
 :root {
@@ -37,7 +39,35 @@
 }
 ```
 
-[兼容性查询]: https://caniuse.com/#search=css%20var	"兼容性查询"
+IE15 及以上浏览器都支持此样式
+
+
+
+2. 安装bubu_gear
+
+```command line
+npm install --save bubu_gear
+```
+
+
+
+3. 引入bubu_gear
+
+```vue
+//APP.vue文件
+
+import {Button, Button_group, Icon} from 'bubu_gear'
+import 'bubu_gear/dist/index.css'
+
+    export default {
+        name: 'App',
+        components: {
+            HelloWorld,
+            'g-button': Button,
+            'g-icon':Icon
+        }
+    }
+```
 
 
 
