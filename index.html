@@ -26,7 +26,17 @@
 
         #app {
             margin: 20px;
+            text-align: center;
         }
+
+        h2 {
+            margin: 20px 0;
+        }
+
+        .box {
+            margin: 20px 0;
+        }
+
     </style>
     <style>
 
@@ -34,14 +44,30 @@
 </head>
 <body>
 <div id="app">
-    <g-button icon="setting" icon_position="left" :loading="loading1" @click="loading1=!loading1">按钮</g-button>
-    <g-button icon="setting" icon_position="right" :loading="loading2" @click="loading2=!loading2">按钮</g-button>
-    <g-button :loading="loading3" @click="loading3=!loading3">按钮</g-button>
-    <g-button-group>
-        <g-button icon="left">上一页</g-button>
-        <g-button icon="right" icon_position="right">下一页</g-button>
-    </g-button-group>
+    <div>
+        <h2>button</h2>
+        <g-button icon="setting" icon_position="left" :loading="loading1" @click="loading1=!loading1">按钮</g-button>
+        <g-button icon="setting" icon_position="right" :loading="loading2" @click="loading2=!loading2">按钮</g-button>
+        <g-button :loading="loading3" @click="loading3=!loading3">按钮</g-button>
+        <g-button-group>
+            <g-button icon="left">上一页</g-button>
+            <g-button icon="right" icon_position="right">下一页</g-button>
+        </g-button-group>
+    </div>
+    <div>
+        <h2>input</h2>
+        <div class="box">
+            <g-input value="请输入用户名" disabled></g-input>
+            <g-input value="请输入密码" readonly></g-input>
+            <g-input value="请输入内容"></g-input>
+        </div>
+        <div>
+            <g-input value="xxx" error="输入内容有误"></g-input>
+        </div>
+    </div>
+
     <div id="test"></div>
+
 </div>
 <script src="./src/app.js"></script>
 <!--<script src="https://at.alicdn.com/t/font_1403937_4mm36o1de0j.js"></script>-->

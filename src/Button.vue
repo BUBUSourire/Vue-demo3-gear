@@ -40,7 +40,7 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     @keyframes spin {
         0% {
             transform: rotate(0deg)
@@ -57,7 +57,6 @@
         border-radius: var(--border-radius);
         border: 1px solid var(--border-color);
         background: var(--button-bg);
-        margin-top: 10px;
         display: inline-flex;
         justify-content: center;
         align-items: center;
