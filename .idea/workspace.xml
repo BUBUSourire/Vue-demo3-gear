@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button_group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button_group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,7 +70,9 @@
       <workItem from="1568359214450" duration="679000" />
       <workItem from="1568360830172" duration="1610000" />
       <workItem from="1568436839201" duration="3298000" />
-      <workItem from="1568512491092" duration="9554000" />
+      <workItem from="1568512491092" duration="15532000" />
+      <workItem from="1568555018675" duration="3114000" />
+      <workItem from="1568610541099" duration="2353000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -225,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568468203206</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="添加 input.vue 及样式">
+      <created>1568536623400</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1568536623400</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +276,7 @@
     <MESSAGE value="npm 发布测试2" />
     <MESSAGE value="更新 README.md" />
     <MESSAGE value="去除对 iconfont 的依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除对 iconfont 的依赖" />
+    <MESSAGE value="添加 input.vue 及样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 input.vue 及样式" />
   </component>
 </project>

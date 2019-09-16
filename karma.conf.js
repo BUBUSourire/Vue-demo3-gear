@@ -1,3 +1,4 @@
+// 新建 karma.conf.js，内容如下
 module.exports = function (config) {
     config.set({
 

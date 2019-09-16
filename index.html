@@ -59,7 +59,7 @@
         <div class="box">
             <g-input value="请输入用户名" disabled></g-input>
             <g-input value="请输入密码" readonly></g-input>
-            <g-input value="请输入内容"></g-input>
+            <g-input value="请输入" @change="changeError"></g-input>
         </div>
         <div>
             <g-input value="xxx" error="输入内容有误"></g-input>
