@@ -3,11 +3,15 @@ import Button from './Button'
 import Icon from "./Icon";
 import Button_group from "./Button_group";
 import Input from "./Input";
+import Row from "./Row";
+import Col from "./Col";
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
 Vue.component('g-button-group', Button_group)
 Vue.component('g-input', Input)
+Vue.component('g-row', Row)
+Vue.component('g-col', Col)
 
 new Vue({
     el: '#app',
@@ -15,10 +19,10 @@ new Vue({
         loading1: false,
         loading2: false,
         loading3: false,
-        message:'I love you .'
+        message: 'I love you .'
     },
-    methods:{
-        changeError(e){
+    methods: {
+        changeError(e) {
             console.log(e)
         }
     }

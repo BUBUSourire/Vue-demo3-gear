@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Col.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Row.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button_group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button_group.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -31,7 +32,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建临时文件" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cnode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\》》》前端《《《\GIT\Vue-Project\gear\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
@@ -69,7 +71,10 @@
       <workItem from="1568436839201" duration="3298000" />
       <workItem from="1568512491092" duration="15532000" />
       <workItem from="1568555018675" duration="3114000" />
-      <workItem from="1568610541099" duration="4791000" />
+      <workItem from="1568610541099" duration="6098000" />
+      <workItem from="1568621026522" duration="337000" />
+      <workItem from="1568686730390" duration="4968000" />
+      <workItem from="1568770241014" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -239,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568613058099</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="让 input 支持 v-model 双向 绑定">
+      <created>1568615460688</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568615460688</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +294,7 @@
     <MESSAGE value="去除对 iconfont 的依赖" />
     <MESSAGE value="添加 input.vue 及样式" />
     <MESSAGE value="添加 input 的测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 input 的测试用例" />
+    <MESSAGE value="让 input 支持 v-model 双向 绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="让 input 支持 v-model 双向 绑定" />
   </component>
 </project>
