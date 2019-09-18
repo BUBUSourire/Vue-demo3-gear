@@ -1,8 +1,8 @@
 <template>
-    <div class="col" :class="[span &&`col-${span}`,offset &&`offset-${offset}`]"
-         :style="{paddingLeft:gutter/2+'px',paddingRight:gutter/2+'px'}"> <!--语法记忆：若offset存在，则执行后面的代码-->
+    <div class="col" :class="colClass"
+         :style="colStyle"> <!--语法记忆：若offset存在，则执行后面的代码-->
         <div style="border: 1px solid green">
-        <slot></slot>
+            <slot></slot>
         </div>
     </div>
 </template>
@@ -18,9 +18,24 @@
                 type: [Number, String]
             }
         },
-        data (){
+        data() {
             return {
-                gutter:0
+                gutter: 0
+            }
+        },
+        computed: {
+            colStyle() {
+                return {
+                    paddingLeft: this.gutter / 2 + 'px',
+                    paddingRight: this.gutter / 2 + 'px'
+                }
+            },
+            colClass() {
+                let {span,offset} = this
+                return [
+                    span && `col-${span}`,
+                    offset && `offset-${offset}`
+                ]
             }
         }
     }

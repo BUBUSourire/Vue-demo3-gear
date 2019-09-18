@@ -50,7 +50,6 @@ chai.use(spies)
     vm.$mount('#test') //挂载到#test的div中
     //测试
     let useElement = vm.$el.querySelector('use')
-    console.log(useElement)
     let href = useElement.getAttribute('xlink:href')
     expect(href).to.eq('#icon-setting')
     vm.$el.remove()
