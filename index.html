@@ -71,32 +71,32 @@
         </div>
     </div>
 
-    <div>
-        <h2>Grid</h2>
-        <g-row>
+    <div style="border: 1px solid black">
+<!--        <h2>Grid</h2>-->
+        <g-row gutter="20">
             <g-col>1</g-col>
             <g-col>2</g-col>
         </g-row>
-        <g-row>
+        <g-row gutter="20">
             <g-col>1</g-col>
             <g-col>2</g-col>
             <g-col>3</g-col>
         </g-row>
-        <g-row>
+        <g-row gutter="20">
             <g-col>1</g-col>
             <g-col>2</g-col>
             <g-col>3</g-col>
             <g-col>4</g-col>
         </g-row>
-        <g-row>
-            <!--
+        <g-row gutter="20">
+            <g-col span = "2">1</g-col>
+            <g-col span = "22">2</g-col>
+        </g-row>
+        <!--
             span = "2" 这里的双引是html的引号，里面的2是字符串2；
             :span = "2" 这里的2是js中的2，是数字；
             :span = "'2'" 双引是html的引号，单引是js的单引，这里的2是字符串2
             -->
-            <g-col span = "2">1</g-col>
-            <g-col span = "22">2</g-col>
-        </g-row>
     </div>
 
     <div id="test"></div>

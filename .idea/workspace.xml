@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Col.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Row.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button_group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button_group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Col.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Row.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cnode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\》》》前端《《《\GIT\Vue-Project\gear\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Handlebars/Mustache" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +72,8 @@
       <workItem from="1568610541099" duration="6098000" />
       <workItem from="1568621026522" duration="337000" />
       <workItem from="1568686730390" duration="4968000" />
-      <workItem from="1568770241014" duration="4430000" />
+      <workItem from="1568770241014" duration="8261000" />
+      <workItem from="1568787597509" duration="4120000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -251,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568615460688</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="row 和 col的雏形完成">
+      <created>1568775546144</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568775546144</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +301,7 @@
     <MESSAGE value="添加 input.vue 及样式" />
     <MESSAGE value="添加 input 的测试用例" />
     <MESSAGE value="让 input 支持 v-model 双向 绑定" />
-    <option name="LAST_COMMIT_MESSAGE" value="让 input 支持 v-model 双向 绑定" />
+    <MESSAGE value="row 和 col的雏形完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="row 和 col的雏形完成" />
   </component>
 </project>
