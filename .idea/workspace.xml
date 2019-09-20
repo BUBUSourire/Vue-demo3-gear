@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="重构 row col">
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Col.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Row.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,8 @@
       <workItem from="1568686730390" duration="4968000" />
       <workItem from="1568770241014" duration="8261000" />
       <workItem from="1568787597509" duration="14492000" />
-      <workItem from="1568937636824" duration="5223000" />
+      <workItem from="1568937636824" duration="11493000" />
+      <workItem from="1568949160583" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -276,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568794245096</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="初步实现响应式，默认就是phone样式">
+      <created>1568942930252</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1568942930252</updated>
+    </task>
+    <task id="LOCAL-00030" summary="解决一个bug，检查没有传的情况">
+      <created>1568943093276</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1568943093277</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,8 +312,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="加入parcel，将button组件改为单文件组件" />
-    <MESSAGE value="添加icon 和 icon_position属性" />
     <MESSAGE value="验证icon_position为left或right中的一个&#10;设置默认值为left（避免出现icon_undefined）" />
     <MESSAGE value="创建Icon.vue组件" />
     <MESSAGE value="添加加载" />
@@ -321,6 +335,8 @@
     <MESSAGE value="row 和 col的雏形完成" />
     <MESSAGE value="基本实现row和col的功能" />
     <MESSAGE value="重构 row col" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构 row col" />
+    <MESSAGE value="初步实现响应式，默认就是phone样式" />
+    <MESSAGE value="解决一个bug，检查没有传的情况" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决一个bug，检查没有传的情况" />
   </component>
 </project>

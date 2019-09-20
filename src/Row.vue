@@ -31,6 +31,7 @@
 <style scoped lang="scss">
     .row {
         display: flex;
-        margin: 0 -10px;
+        flex-wrap: wrap;
+
     }
 </style>

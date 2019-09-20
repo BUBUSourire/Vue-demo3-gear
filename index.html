@@ -37,6 +37,11 @@
             margin: 20px 0;
         }
 
+        .demo {
+            height: 100px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+        }
     </style>
     <style>
 
@@ -74,44 +79,31 @@
 
     <div>
         <h2>Grid</h2>
+
         <g-row gutter="20">
-            <g-col>1</g-col>
-            <g-col>2</g-col>
-        </g-row>
-        <g-row gutter="20">
-            <g-col>1</g-col>
-            <g-col>2</g-col>
-            <g-col>3</g-col>
-        </g-row>
-        <g-row gutter="20">
-            <g-col>1</g-col>
-            <g-col>2</g-col>
-            <g-col>3</g-col>
-            <g-col>4</g-col>
-        </g-row>
-        <g-row gutter="20">
-            <g-col span="2">1</g-col>
-            <g-col span="22">2</g-col>
+            <g-col span="2"><div class="demo"></div></g-col>
+            <g-col span="22"><div class="demo"></div></g-col>
         </g-row>
         <!--
             span = "2" 这里的双引是html的引号，里面的2是字符串2；
             :span = "2" 这里的2是js中的2，是数字；
             :span = "'2'" 双引是html的引号，单引是js的单引，这里的2是字符串2
             -->
-        <g-row gutter="20">
-            <g-col span="24"
-                   :i-pad="{span:8,offset:0}"
-                   :narrow-pc="{span:6,offset:0}"
-                   :pc="{span:4,offset:0}"
-                   :wide-pc="{span:2,offset:0}"
-            >1
+
+        <h3 style="margin:20px 0">Gride-响应式</h3>
+
+        <g-row gutter="10">
+            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
+                <div class="demo"></div>
             </g-col>
-            <g-col span="24"
-                   :i-pad="{span:14,offset:0}"
-                   :narrow-pc="{span:16,offset:0}"
-                   :pc="{span:18,offset:0}"
-                   :wide-pc="{span:20,offset:0}"
-            >2
+            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
+                <div class="demo"></div>
             </g-col>
         </g-row>
     </div>
