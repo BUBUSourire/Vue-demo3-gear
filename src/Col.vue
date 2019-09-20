@@ -50,10 +50,10 @@
                 return [
                     span && `col-${span}`,
                     offset && `offset-${offset}`,
-                    ...(iPad && [`col-iPad-${iPad.span}`]),
-                    ...(narrowPc && [`col-narrow-pc-${narrowPc.span}`]),
-                    ...(pc && [`col-pc-${pc.span}`]),
-                    ...(widePc && [`col-wide-pc-${widePc.span}`])
+                    ...(iPad ? [`col-iPad-${iPad.span}`] : []),
+                    ...(narrowPc ? [`col-narrow-pc-${narrowPc.span}`] : []),
+                    ...(pc ? [`col-pc-${pc.span}`] : []),
+                    ...(widePc ? [`col-wide-pc-${widePc.span}`] : [])
                 ]
             }
         }
