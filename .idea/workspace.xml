@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/test/col.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Col.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/row.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/row.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
       <workItem from="1568937636824" duration="11493000" />
       <workItem from="1568949160583" duration="6358000" />
       <workItem from="1569052549443" duration="624000" />
-      <workItem from="1569113222479" duration="7257000" />
+      <workItem from="1569113222479" duration="8682000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -309,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569052573854</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="重构col，完成row和col的测试">
+      <created>1569143708972</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569143708972</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +332,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加加载" />
     <MESSAGE value="添加加载状态" />
     <MESSAGE value="添加click事件&#10;icon与loading转换" />
     <MESSAGE value="创建 icon group" />
@@ -354,6 +356,7 @@
     <MESSAGE value="解决一个bug，检查没有传的情况" />
     <MESSAGE value="响应式基本完成&#10;之前没有增加flex-wrap，补上了" />
     <MESSAGE value="nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+    <MESSAGE value="重构col，完成row和col的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构col，完成row和col的测试" />
   </component>
 </project>
