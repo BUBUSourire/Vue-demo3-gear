@@ -4,12 +4,7 @@
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +82,7 @@
       <workItem from="1568949160583" duration="6358000" />
       <workItem from="1569052549443" duration="624000" />
       <workItem from="1569113222479" duration="13474000" />
-      <workItem from="1569202108759" duration="1501000" />
+      <workItem from="1569202108759" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -334,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569152178009</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="布局组件基本功能完成">
+      <created>1569203762173</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1569203762173</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加click事件&#10;icon与loading转换" />
     <MESSAGE value="创建 icon group" />
     <MESSAGE value="检测子元素是不是button" />
     <MESSAGE value="第一个元素不需要margin-left" />
@@ -379,6 +380,7 @@
     <MESSAGE value="nothing" />
     <MESSAGE value="重构col，完成row和col的测试" />
     <MESSAGE value="创建 layout content sider layout 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 layout content sider layout 组件" />
+    <MESSAGE value="布局组件基本功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="布局组件基本功能完成" />
   </component>
 </project>
