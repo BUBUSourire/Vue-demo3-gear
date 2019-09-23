@@ -43,7 +43,9 @@ new Vue({
             console.log(e)
         },
         showToast(){
-            this.$toast('此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容')
+            this.$toast('<strong>此处内容</strong>此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容',{
+                enableHtml: true
+            })
         }
     }
 

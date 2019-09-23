@@ -1,7 +1,9 @@
 <template>
     <div class="toast">
-
-        <div class="line" style=""><slot></slot></div>
+        <div class="line" style="">
+            <slot v-if="!enableHtml"></slot>
+            <div v-else v-html="$slots.default[0]"></div>
+        </div>
         <span class="close" v-if="closeButton" @click="closeAll">{{closeButton.text}}</span>
     </div>
 </template>
@@ -24,11 +26,13 @@
                 default() {
                     return {
                         text: '关闭',
-                        callback: (toast) => {
-                            this.close()
-                        }
+                        callback: undefined
                     }
                 }
+            },
+            enableHtml:{
+                type:Boolean,
+                default:false
             }
         },
         mounted() {
@@ -45,7 +49,9 @@
             },
             closeAll() {
                 this.close()
-                this.closeButton.callback()
+                if (this.closeButton && typeof this.closeButton.callback === 'function') {
+                    this.closeButton.callback()
+                }
             }
         }
     }
