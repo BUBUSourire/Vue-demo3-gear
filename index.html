@@ -42,6 +42,11 @@
             background-color: #eee;
             border: 1px solid #ccc;
         }
+
+        .lay {
+            background-color: #eee;
+            border: 1px solid #ccc;
+        }
     </style>
     <style>
 
@@ -81,8 +86,12 @@
         <h2>Grid</h2>
 
         <g-row gutter="20">
-            <g-col span="2"><div class="demo"></div></g-col>
-            <g-col span="22"><div class="demo"></div></g-col>
+            <g-col span="2">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="22">
+                <div class="demo"></div>
+            </g-col>
         </g-row>
         <!--
             span = "2" 这里的双引是html的引号，里面的2是字符串2；
@@ -106,6 +115,28 @@
                 <div class="demo"></div>
             </g-col>
         </g-row>
+    </div>
+
+    <div>
+        <h2>Layout</h2>
+
+        <g-layout style="height: 100vh;border: 1px solid #333333;">
+            <g-header class="lay">Header</g-header>
+            <g-layout>
+                <g-sider class="lay">Sider</g-sider>
+                <g-content class="lay">Content</g-content>
+            </g-layout>
+            <g-footer class="lay">Footer</g-footer>
+        </g-layout>
+
+        <g-layout style="height: 100vh;border: 1px solid #333333;margin: 30px 0">
+            <g-sider class="lay">Sider</g-sider>
+            <g-layout>
+                <g-header class="lay">Header</g-header>
+                <g-content class="lay">Content</g-content>
+                <g-footer class="lay">Footer</g-footer>
+            </g-layout>
+        </g-layout>
     </div>
 
     <div id="test"></div>

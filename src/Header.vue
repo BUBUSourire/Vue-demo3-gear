@@ -1,13 +1,17 @@
 <template>
-    
+    <div class="header">
+        <slot></slot>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "Header"
+        name: "g-header"
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+.header {
+    height: 100px;
+}
 </style>

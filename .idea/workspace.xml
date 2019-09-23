@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -79,7 +86,8 @@
       <workItem from="1568937636824" duration="11493000" />
       <workItem from="1568949160583" duration="6358000" />
       <workItem from="1569052549443" duration="624000" />
-      <workItem from="1569113222479" duration="8682000" />
+      <workItem from="1569113222479" duration="13474000" />
+      <workItem from="1569202108759" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -312,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569143708972</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="创建 layout content sider layout 组件">
+      <created>1569152018285</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569152018285</updated>
+    </task>
+    <task id="LOCAL-00035" summary="创建 layout content sider layout 组件">
+      <created>1569152178009</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1569152178009</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加加载状态" />
     <MESSAGE value="添加click事件&#10;icon与loading转换" />
     <MESSAGE value="创建 icon group" />
     <MESSAGE value="检测子元素是不是button" />
@@ -357,6 +378,7 @@
     <MESSAGE value="响应式基本完成&#10;之前没有增加flex-wrap，补上了" />
     <MESSAGE value="nothing" />
     <MESSAGE value="重构col，完成row和col的测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构col，完成row和col的测试" />
+    <MESSAGE value="创建 layout content sider layout 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 layout content sider layout 组件" />
   </component>
 </project>
