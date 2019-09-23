@@ -43,7 +43,7 @@ new Vue({
             console.log(e)
         },
         showToast(){
-            this.$toast('change sth')
+            this.$toast('此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容')
         }
     }
 
