@@ -35,21 +35,30 @@ new Vue({
         loading3: false,
         message: 'I love you .'
     },
-    created() {
-        this.$toast('这是默认内容，不加html',{
-            position:'top'
-        })
-    }
-    ,
+    // created() {
+    //     this.$toast('这是默认内容，不加html',{
+    //         position:'top'
+    //     })
+    // }
+    // ,
     methods: {
         changeError(e) {
             console.log(e)
         },
-        showToast() {
-            this.$toast(`<strong>智商为${parseInt(Math.random()*100)}</strong>` +
+        showToast1(){
+            this.showToast('top')
+        },
+        showToast2(){
+            this.showToast('middle')
+        },
+        showToast3(){
+            this.showToast('bottom')
+        },
+        showToast(position) {
+            this.$toast(`<strong>智商为${parseInt(Math.random()*100)}。。。</strong>` +
                 '此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容', {
                 enableHtml: true,
-                position:'middle'
+                position,
             })
         }
     }

@@ -1,10 +1,12 @@
 <template>
-    <div class="toast" :class="toastClass">
-        <div class="line" style="">
-            <slot v-if="!enableHtml"></slot>
-            <div v-else v-html="$slots.default[0]"></div>
+    <div class="toastAll" :class="toastClass">
+        <div class="toast">
+            <div class="line" style="">
+                <slot v-if="!enableHtml"></slot>
+                <div v-else v-html="$slots.default[0]"></div>
+            </div>
+            <span class="close" v-if="closeButton" @click="closeAll">{{closeButton.text}}</span>
         </div>
-        <span class="close" v-if="closeButton" @click="closeAll">{{closeButton.text}}</span>
     </div>
 </template>
 
@@ -77,10 +79,70 @@
     $font-size: 14px;
     $toast-min-height: 40px;
     $toast-bg: #eee;
-    .toast {
-        border: 1px solid #ccc;
+    $animation-duration:300ms;
+    @keyframes slide_up {
+        0% {
+            opacity: 0;
+            transform: translateY(100%)
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%)
+        }
+    }
+    @keyframes slide_down {
+        0% {
+            opacity: 0;
+            transform: translateY(-100%)
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%)
+        }
+    }
+    @keyframes slide_center {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .toastAll {
         position: fixed;
         left: 50%;
+        transform: translateX(-50%);
+
+        &.position-top {
+            top: 0;
+            .toast {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                animation: slide_down $animation-duration;
+            }
+        }
+
+        &.position-bottom {
+            bottom: 0;
+            .toast {
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+                animation: slide_up $animation-duration;
+            }
+        }
+
+        &.position-middle {
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            .toast {
+                animation: slide_center $animation-duration;
+            }
+        }
+    }
+
+    .toast {
+        border: 1px solid #ccc;
         font-size: $font-size;
         line-height: 1.8;
         min-height: $toast-min-height;
@@ -89,21 +151,6 @@
         background: $toast-bg;
         border-radius: 4px;
         padding: 0 16px;
-
-        &.position-top {
-            top: 0;
-            transform: translateX(-50%);
-        }
-
-        &.position-bottom {
-            bottom: 0;
-            transform: translateX(-50%);
-        }
-
-        &.position-middle {
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
     }
 
     .close {
