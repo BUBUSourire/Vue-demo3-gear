@@ -19,12 +19,12 @@ Vue.component('g-button-group', Button_group)
 Vue.component('g-input', Input)
 Vue.component('g-row', Row)
 Vue.component('g-col', Col)
-Vue.component('g-content',Content)
-Vue.component('g-header',Header)
-Vue.component('g-footer',Footer)
-Vue.component('g-sider',Sider)
-Vue.component('g-layout',Layout)
-Vue.component('g-toast',Toast)
+Vue.component('g-content', Content)
+Vue.component('g-header', Header)
+Vue.component('g-footer', Footer)
+Vue.component('g-sider', Sider)
+Vue.component('g-layout', Layout)
+Vue.component('g-toast', Toast)
 Vue.use(plugin)
 
 new Vue({
@@ -35,16 +35,20 @@ new Vue({
         loading3: false,
         message: 'I love you .'
     },
-    created(){
-
-    },
+    created() {
+        this.$toast('这是默认内容，不加html',{
+            position:'top'
+        })
+    }
+    ,
     methods: {
         changeError(e) {
             console.log(e)
         },
-        showToast(){
-            this.$toast('<strong>此处内容</strong>此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容',{
-                enableHtml: true
+        showToast() {
+            this.$toast('<strong>此处内容</strong>此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容', {
+                enableHtml: true,
+                position:'middle'
             })
         }
     }
