@@ -46,7 +46,8 @@ new Vue({
             console.log(e)
         },
         showToast() {
-            this.$toast('<strong>此处内容</strong>此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容', {
+            this.$toast(`<strong>智商为${parseInt(Math.random()*100)}</strong>` +
+                '此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容此处内容', {
                 enableHtml: true,
                 position:'middle'
             })
