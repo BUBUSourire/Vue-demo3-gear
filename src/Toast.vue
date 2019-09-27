@@ -7,6 +7,7 @@
             </div>
             <span class="close" v-if="closeButton" @click="closeAll">{{closeButton.text}}</span>
         </div>
+        <div id="test"></div>
     </div>
 </template>
 
@@ -20,7 +21,7 @@
             },
             closeToastDelay: {
                 type: Number,
-                default: 50000
+                default: 5000
             },
             closeButton: {
                 //如果默认值是对象，需写成函数形式，返回该对象
