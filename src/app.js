@@ -12,6 +12,12 @@ import Footer from "./Footer";
 import Layout from "./Layout";
 import Toast from "./Toast";
 import plugin from "./plugin";
+import Tabs from "./Tabs";
+import TabsHead from "./Tabs-head"
+import TabsItem from "./Tabs-item"
+import TabsBody from "./Tabs-body"
+import TabsPanel from "./Tabs-panel"
+
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
@@ -26,6 +32,11 @@ Vue.component('g-sider', Sider)
 Vue.component('g-layout', Layout)
 Vue.component('g-toast', Toast)
 Vue.use(plugin)
+Vue.component('g-tabs',Tabs)
+Vue.component('g-tabs-head',TabsHead)
+Vue.component('g-tabs-body',TabsBody)
+Vue.component('g-tabs-item',TabsItem)
+Vue.component('g-tabs-panel',TabsPanel)
 
 new Vue({
     el: '#app',
@@ -33,7 +44,9 @@ new Vue({
         loading1: false,
         loading2: false,
         loading3: false,
-        message: 'I love you .'
+        message: 'I love you .',
+        selectedTab:'sth1'
+
     },
     // created() {
     //     this.$toast('这是默认内容，不加html',{
