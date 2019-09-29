@@ -6,7 +6,8 @@
 
 <script>
     export default {
-        name: "g-tabs-body"
+        name: "g-tabs-body",
+        inject:['eventBus'],
     }
 </script>
 
