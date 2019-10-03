@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "Tabs-item",
+        name: "g-tabs-item",
         inject:['eventBus'],
         data(){
             return {
@@ -32,7 +32,7 @@
         },
         methods:{
             xxx(){
-                this.eventBus.$emit('update:selected',this.name)
+                this.eventBus.$emit('update:selected',this.name,this)
             }
         },
         created() {
@@ -51,10 +51,10 @@
     .tabs-item {
         flex-shrink: 0;
         padding: 6px 2em;
-        border: 1px solid #333333;
+        border: 1px solid #ccc;
         border-radius: 3px;
         &.active {
-            background-color: red;
+            background-color: #eee;
         }
     }
 </style>

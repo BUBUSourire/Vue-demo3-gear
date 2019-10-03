@@ -6,6 +6,7 @@
 
 <script>
     import Vue from 'vue'
+
     export default {
         name: "g-tabs",
         props: {
@@ -21,18 +22,26 @@
                 }
             }
         },
-        data(){
-          return {
-              eventBus:new Vue()
-          }
+        data() {
+            return {
+                eventBus: new Vue()
+            }
         },
-        provide(){
+        provide() {
             return {
                 eventBus: this.eventBus
             }
         },
         mounted() {
-            this.eventBus.$emit('update:selected',this.selected)
+            this.$children.forEach((vm) => {
+                if (vm.$options.name === 'g-tabs-head') {
+                    vm.$children.forEach((item) => {
+                        if (item.$options.name === 'g-tabs-item' && item.name === this.selected) {
+                            this.eventBus.$emit('update:selected', this.selected, item)
+                        }
+                    })
+                }
+            })
         }
     }
 </script>

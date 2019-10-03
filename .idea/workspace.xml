@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="tabs切换基本功能实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tabs-body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-body.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-head.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-item.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tabs-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-panel.vue" afterDir="false" />
@@ -91,7 +90,11 @@
       <workItem from="1569485537919" duration="141000" />
       <workItem from="1569573333611" duration="2940000" />
       <workItem from="1569637650807" duration="7068000" />
-      <workItem from="1569722184205" duration="5351000" />
+      <workItem from="1569722184205" duration="8534000" />
+      <workItem from="1569811905558" duration="641000" />
+      <workItem from="1569853502514" duration="47000" />
+      <workItem from="1569933944257" duration="38000" />
+      <workItem from="1570084837129" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -415,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569658880913</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="tabs切换基本功能实现">
+      <created>1569734858636</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1569734858636</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新 README.md" />
     <MESSAGE value="去除对 iconfont 的依赖" />
     <MESSAGE value="添加 input.vue 及样式" />
     <MESSAGE value="添加 input 的测试用例" />
@@ -460,6 +469,7 @@
     <MESSAGE value="添加toast动画" />
     <MESSAGE value="toast测试" />
     <MESSAGE value="添加Tabs相关组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Tabs相关组件" />
+    <MESSAGE value="tabs切换基本功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabs切换基本功能实现" />
   </component>
 </project>

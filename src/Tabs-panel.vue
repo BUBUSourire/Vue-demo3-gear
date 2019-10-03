@@ -40,9 +40,9 @@
 
 <style scoped lang="scss">
     .tabs-panel {
-        height: 50px;
+        height: 200px;
         &.active {
-            background-color: red;
+            background-color: #eee;
         }
     }
 </style>
