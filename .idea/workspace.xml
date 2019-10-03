@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="tabs切换基本功能实现">
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tabs-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs-panel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +94,7 @@
       <workItem from="1569853502514" duration="47000" />
       <workItem from="1569933944257" duration="38000" />
       <workItem from="1570084837129" duration="83000" />
+      <workItem from="1570102223241" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -425,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569734858636</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="tabs切换基本功能实现">
+      <created>1570102420914</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1570102420914</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
