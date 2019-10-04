@@ -1,9 +1,11 @@
 <template>
     <div class="popover" @click.stop="xxx">
-        <div class="popContentStyle" v-if="showing" @click.stop>
+        <div class="popContentStyle" v-if="showing" ref="contentWrapper">
             <slot name="popContent"></slot>
         </div>
+        <span ref="triggerWrapper">
             <slot></slot>
+        </span>
     </div>
 </template>
 
@@ -17,17 +19,20 @@
         },
         methods: {
             xxx(e) {
-                e.stopPropagation()
+                // e.stopPropagation()
                 this.showing = !this.showing
                 if (this.showing === true) {
-                    let eventHandler = () => {
-                        this.showing = false
-                        console.log('document隐藏')
-                        document.removeEventListener('click', eventHandler)
-                    }
-                    document.addEventListener('click', eventHandler)
-                }else{
-                    console.log('组件自身隐藏')
+                    this.$nextTick(() => {
+                        document.body.appendChild(this.$refs.contentWrapper) //解决overflow：hidden的bug
+                        let {width, height, left, top} = this.$refs.triggerWrapper.getBoundingClientRect()
+                        this.$refs.contentWrapper.style.left = left + window.scrollX + 'px'
+                        this.$refs.contentWrapper.style.top = top + window.scrollY + 'px'
+                        let eventHandler = () => {
+                            this.showing = false
+                            document.removeEventListener('click', eventHandler)
+                        }
+                        document.addEventListener('click', eventHandler)
+                    })
                 }
             }
         }
@@ -40,13 +45,13 @@
         vertical-align: bottom;
         position: relative;
         margin: 50px 0;
+    }
 
-        .popContentStyle {
-            position: absolute;
-            bottom: 20px;
-            border: 1px solid red;
-            box-shadow: 0 0 3px #333333;
-        }
+    .popContentStyle {
+        position: absolute;
+        border: 1px solid red;
+        box-shadow: 0 0 3px #333333;
+        transform: translateY(-100%);
     }
 
 </style>

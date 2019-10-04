@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
+    <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="解决 容器有overflow：hidden 造成的bug&#10;（元素追加到body最后）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
@@ -94,14 +94,7 @@
       <workItem from="1569933944257" duration="38000" />
       <workItem from="1570084837129" duration="83000" />
       <workItem from="1570102223241" duration="7979000" />
-      <workItem from="1570164085047" duration="3176000" />
-    </task>
-    <task id="LOCAL-00001" summary="按钮初次提交">
-      <created>1568102493547</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1568102493547</updated>
+      <workItem from="1570164085047" duration="7841000" />
     </task>
     <task id="LOCAL-00002" summary="安装parcel">
       <created>1568102786331</created>
@@ -439,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570105048746</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="实现最简单的 popover click-showing">
+      <created>1570170012003</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1570170012004</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 input.vue 及样式" />
     <MESSAGE value="添加 input 的测试用例" />
     <MESSAGE value="让 input 支持 v-model 双向 绑定" />
     <MESSAGE value="row 和 col的雏形完成" />
@@ -484,6 +483,7 @@
     <MESSAGE value="添加Tabs相关组件" />
     <MESSAGE value="tabs切换基本功能实现" />
     <MESSAGE value="创建 popover 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 popover 组件" />
+    <MESSAGE value="实现最简单的 popover click-showing" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现最简单的 popover click-showing" />
   </component>
 </project>
