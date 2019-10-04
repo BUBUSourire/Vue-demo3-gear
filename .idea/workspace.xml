@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建临时文件" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Practice/JS/浮层-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\》》》前端《《《\GIT\Vue-Project\gear\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -94,7 +93,8 @@
       <workItem from="1569853502514" duration="47000" />
       <workItem from="1569933944257" duration="38000" />
       <workItem from="1570084837129" duration="83000" />
-      <workItem from="1570102223241" duration="2630000" />
+      <workItem from="1570102223241" duration="7979000" />
+      <workItem from="1570164085047" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="按钮初次提交">
       <created>1568102493547</created>
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570102420914</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="创建 popover 组件">
+      <created>1570105048746</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1570105048746</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="去除对 iconfont 的依赖" />
     <MESSAGE value="添加 input.vue 及样式" />
     <MESSAGE value="添加 input 的测试用例" />
     <MESSAGE value="让 input 支持 v-model 双向 绑定" />
@@ -477,6 +483,7 @@
     <MESSAGE value="toast测试" />
     <MESSAGE value="添加Tabs相关组件" />
     <MESSAGE value="tabs切换基本功能实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabs切换基本功能实现" />
+    <MESSAGE value="创建 popover 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 popover 组件" />
   </component>
 </project>

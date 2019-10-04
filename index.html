@@ -13,6 +13,10 @@
             box-sizing: border-box;
         }
 
+        body {
+            border:1px solid red;
+        }
+
         :root {
             --button-height: 32px;
             --font-size: 14px;
@@ -54,122 +58,122 @@
 <body>
 <div id="app">
 
-    <div>
-        <h2>Button</h2>
-        <g-button icon="setting" icon_position="left" :loading="loading1" @click="loading1=!loading1">按钮</g-button>
-        <g-button icon="setting" icon_position="right" :loading="loading2" @click="loading2=!loading2">按钮</g-button>
-        <g-button :loading="loading3" @click="loading3=!loading3">按钮</g-button>
-        <g-button-group>
-            <g-button icon="left">上一页</g-button>
-            <g-button icon="right" icon_position="right">下一页</g-button>
-        </g-button-group>
-    </div>
+<!--    <div>-->
+<!--        <h2>Button</h2>-->
+<!--        <g-button icon="setting" icon_position="left" :loading="loading1" @click="loading1=!loading1">按钮</g-button>-->
+<!--        <g-button icon="setting" icon_position="right" :loading="loading2" @click="loading2=!loading2">按钮</g-button>-->
+<!--        <g-button :loading="loading3" @click="loading3=!loading3">按钮</g-button>-->
+<!--        <g-button-group>-->
+<!--            <g-button icon="left">上一页</g-button>-->
+<!--            <g-button icon="right" icon_position="right">下一页</g-button>-->
+<!--        </g-button-group>-->
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        <h2>Input</h2>-->
+<!--        <div class="box">-->
+<!--            <g-input value="请输入用户名" disabled></g-input>-->
+<!--            <g-input value="请输入密码" readonly></g-input>-->
+<!--            <g-input value="请输入" @change="changeError"></g-input>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <g-input value="xxx" error="输入内容有误"></g-input>-->
+<!--        </div>-->
+<!--        <div style="margin-top: 10px">-->
+<!--            <g-input v-model="message"></g-input>-->
+<!--            <span> {{message}}</span>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        <h2>Grid</h2>-->
+
+<!--        <g-row gutter="20">-->
+<!--            <g-col span="2">-->
+<!--                <div class="demo"></div>-->
+<!--            </g-col>-->
+<!--            <g-col span="22">-->
+<!--                <div class="demo"></div>-->
+<!--            </g-col>-->
+<!--        </g-row>-->
+<!--        &lt;!&ndash;-->
+<!--            span = "2" 这里的双引是html的引号，里面的2是字符串2；-->
+<!--            :span = "2" 这里的2是js中的2，是数字；-->
+<!--            :span = "'2'" 双引是html的引号，单引是js的单引，这里的2是字符串2-->
+<!--            &ndash;&gt;-->
+
+<!--        <h3 style="margin:20px 0">Grid-响应式</h3>-->
+
+<!--        <g-row gutter="10">-->
+<!--            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">-->
+<!--                <div class="demo"></div>-->
+<!--            </g-col>-->
+<!--            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">-->
+<!--                <div class="demo"></div>-->
+<!--            </g-col>-->
+<!--            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">-->
+<!--                <div class="demo"></div>-->
+<!--            </g-col>-->
+<!--            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">-->
+<!--                <div class="demo"></div>-->
+<!--            </g-col>-->
+<!--        </g-row>-->
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        <h2>Layout</h2>-->
+
+<!--        <g-layout style="height: 100vh;border: 1px solid #333333;">-->
+<!--            <g-header class="lay">Header</g-header>-->
+<!--            <g-layout>-->
+<!--                <g-sider class="lay">Sider</g-sider>-->
+<!--                <g-content class="lay">Content</g-content>-->
+<!--            </g-layout>-->
+<!--            <g-footer class="lay">Footer</g-footer>-->
+<!--        </g-layout>-->
+
+<!--        <g-layout style="height: 100vh;border: 1px solid #333333;margin: 30px 0">-->
+<!--            <g-sider class="lay">Sider</g-sider>-->
+<!--            <g-layout>-->
+<!--                <g-header class="lay">Header</g-header>-->
+<!--                <g-content class="lay">Content</g-content>-->
+<!--                <g-footer class="lay">Footer</g-footer>-->
+<!--            </g-layout>-->
+<!--        </g-layout>-->
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        <h2>Toast</h2>-->
+<!--        <button @click="showToast1" style="position: fixed; bottom: 0;left: 0">top</button>-->
+<!--        <button @click="showToast2" style="position: fixed; bottom: 0;left: 50px">middle</button>-->
+<!--        <button @click="showToast3" style="position: fixed; bottom: 0;left: 100px">bottom</button>-->
+<!--    </div>-->
+
+
+<!--    <div>-->
+<!--        <h2>Tabs</h2>-->
+<!--        <g-tabs :selected.sync="selectedTab">-->
+<!--            <g-tabs-head>-->
+<!--                <template slot="actions">-->
+<!--                    <button>设置</button>-->
+<!--                </template>-->
+<!--                <g-tabs-item name="sth1">-->
+<!--                    <g-icon name="setting"></g-icon>-->
+<!--                    标题1-->
+<!--                </g-tabs-item>-->
+<!--                <g-tabs-item name="sth2" disabled>标题2</g-tabs-item>-->
+<!--                <g-tabs-item name="sth3">标题3</g-tabs-item>-->
+<!--            </g-tabs-head>-->
+<!--            <g-tabs-body>-->
+<!--                <g-tabs-panel name="sth1">相关内容1</g-tabs-panel>-->
+<!--                <g-tabs-panel name="sth2">相关内容2</g-tabs-panel>-->
+<!--                <g-tabs-panel name="sth3">相关内容3</g-tabs-panel>-->
+<!--            </g-tabs-body>-->
+<!--        </g-tabs>-->
+<!--    </div>-->
 
     <div>
-        <h2>Input</h2>
-        <div class="box">
-            <g-input value="请输入用户名" disabled></g-input>
-            <g-input value="请输入密码" readonly></g-input>
-            <g-input value="请输入" @change="changeError"></g-input>
-        </div>
-        <div>
-            <g-input value="xxx" error="输入内容有误"></g-input>
-        </div>
-        <div style="margin-top: 10px">
-            <g-input v-model="message"></g-input>
-            <span> {{message}}</span>
-        </div>
-    </div>
-
-    <div>
-        <h2>Grid</h2>
-
-        <g-row gutter="20">
-            <g-col span="2">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="22">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-        <!--
-            span = "2" 这里的双引是html的引号，里面的2是字符串2；
-            :span = "2" 这里的2是js中的2，是数字；
-            :span = "'2'" 双引是html的引号，单引是js的单引，这里的2是字符串2
-            -->
-
-        <h3 style="margin:20px 0">Grid-响应式</h3>
-
-        <g-row gutter="10">
-            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
-                <div class="demo"></div>
-            </g-col>
-            <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:6}">
-                <div class="demo"></div>
-            </g-col>
-        </g-row>
-    </div>
-
-    <div>
-        <h2>Layout</h2>
-
-        <g-layout style="height: 100vh;border: 1px solid #333333;">
-            <g-header class="lay">Header</g-header>
-            <g-layout>
-                <g-sider class="lay">Sider</g-sider>
-                <g-content class="lay">Content</g-content>
-            </g-layout>
-            <g-footer class="lay">Footer</g-footer>
-        </g-layout>
-
-        <g-layout style="height: 100vh;border: 1px solid #333333;margin: 30px 0">
-            <g-sider class="lay">Sider</g-sider>
-            <g-layout>
-                <g-header class="lay">Header</g-header>
-                <g-content class="lay">Content</g-content>
-                <g-footer class="lay">Footer</g-footer>
-            </g-layout>
-        </g-layout>
-    </div>
-
-    <div>
-        <h2>Toast</h2>
-        <button @click="showToast1" style="position: fixed; bottom: 0;left: 0">top</button>
-        <button @click="showToast2" style="position: fixed; bottom: 0;left: 50px">middle</button>
-        <button @click="showToast3" style="position: fixed; bottom: 0;left: 100px">bottom</button>
-    </div>
-
-
-    <div>
-        <h2>Tabs</h2>
-        <g-tabs :selected.sync="selectedTab">
-            <g-tabs-head>
-                <template slot="actions">
-                    <button>设置</button>
-                </template>
-                <g-tabs-item name="sth1">
-                    <g-icon name="setting"></g-icon>
-                    标题1
-                </g-tabs-item>
-                <g-tabs-item name="sth2" disabled>标题2</g-tabs-item>
-                <g-tabs-item name="sth3">标题3</g-tabs-item>
-            </g-tabs-head>
-            <g-tabs-body>
-                <g-tabs-panel name="sth1">相关内容1</g-tabs-panel>
-                <g-tabs-panel name="sth2">相关内容2</g-tabs-panel>
-                <g-tabs-panel name="sth3">相关内容3</g-tabs-panel>
-            </g-tabs-body>
-        </g-tabs>
-    </div>
-
-    <div>
-        <h2>Popover</h2>
+<!--        <h2>Popover</h2>-->
         <g-popover>
             <template slot="popContent">
                 <div>pop内容</div>
