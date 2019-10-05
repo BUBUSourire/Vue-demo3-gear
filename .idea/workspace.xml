@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,14 +95,7 @@
       <workItem from="1570084837129" duration="83000" />
       <workItem from="1570102223241" duration="7979000" />
       <workItem from="1570164085047" duration="26490000" />
-      <workItem from="1570241943420" duration="13141000" />
-    </task>
-    <task id="LOCAL-00008" summary="添加click事件&#10;icon与loading转换">
-      <created>1568128332378</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1568128332378</updated>
+      <workItem from="1570241943420" duration="13981000" />
     </task>
     <task id="LOCAL-00009" summary="创建 icon group">
       <created>1568129442381</created>
@@ -439,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570287396087</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="解决抖动bug">
+      <created>1570287856991</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1570287856992</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="解决一个bug，检查没有传的情况" />
     <MESSAGE value="响应式基本完成&#10;之前没有增加flex-wrap，补上了" />
     <MESSAGE value="nothing" />
     <MESSAGE value="重构col，完成row和col的测试" />
@@ -484,6 +484,7 @@
     <MESSAGE value="popover 四个方向基本完成" />
     <MESSAGE value="使用表驱动编程 重构代码" />
     <MESSAGE value="支持两种事件触发" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持两种事件触发" />
+    <MESSAGE value="解决抖动bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决抖动bug" />
   </component>
 </project>

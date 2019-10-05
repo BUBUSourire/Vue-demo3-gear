@@ -175,8 +175,11 @@
 
     <div style="overflow: hidden">
         <g-popover>
-            <template slot="content">
-                <div>pop内容</div>
+            <template slot="content" slot-scope="{close}">
+                <div>
+                    pop内容
+                    <g-button @click="close">关闭</g-button>
+                </div>
             </template>
             <g-button>点击</g-button>
         </g-popover>
