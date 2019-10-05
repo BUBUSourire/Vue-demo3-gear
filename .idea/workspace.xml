@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,14 +94,7 @@
       <workItem from="1570084837129" duration="83000" />
       <workItem from="1570102223241" duration="7979000" />
       <workItem from="1570164085047" duration="26490000" />
-      <workItem from="1570241943420" duration="8645000" />
-    </task>
-    <task id="LOCAL-00005" summary="验证icon_position为left或right中的一个&#10;设置默认值为left（避免出现icon_undefined）">
-      <created>1568124083620</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1568124083620</updated>
+      <workItem from="1570241943420" duration="11039000" />
     </task>
     <task id="LOCAL-00006" summary="创建Icon.vue组件">
       <created>1568125920816</created>
@@ -440,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570259688051</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="popover 四个方向基本完成">
+      <created>1570263643299</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1570263643299</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="基本实现row和col的功能" />
     <MESSAGE value="重构 row col" />
     <MESSAGE value="初步实现响应式，默认就是phone样式" />
     <MESSAGE value="解决一个bug，检查没有传的情况" />
@@ -485,6 +483,7 @@
     <MESSAGE value="解决 容器有overflow：hidden 造成的bug&#10;（元素追加到body最后）" />
     <MESSAGE value="popover 功能基本完成" />
     <MESSAGE value="popover 添加默认样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="popover 添加默认样式" />
+    <MESSAGE value="popover 四个方向基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="popover 四个方向基本完成" />
   </component>
 </project>
