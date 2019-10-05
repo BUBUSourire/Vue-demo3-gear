@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,14 +95,7 @@
       <workItem from="1570084837129" duration="83000" />
       <workItem from="1570102223241" duration="7979000" />
       <workItem from="1570164085047" duration="26490000" />
-      <workItem from="1570241943420" duration="11039000" />
-    </task>
-    <task id="LOCAL-00006" summary="创建Icon.vue组件">
-      <created>1568125920816</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1568125920816</updated>
+      <workItem from="1570241943420" duration="12600000" />
     </task>
     <task id="LOCAL-00007" summary="添加加载状态">
       <created>1568126566138</created>
@@ -439,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570263643299</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="使用表驱动编程 重构代码">
+      <created>1570285936104</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1570285936104</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重构 row col" />
     <MESSAGE value="初步实现响应式，默认就是phone样式" />
     <MESSAGE value="解决一个bug，检查没有传的情况" />
     <MESSAGE value="响应式基本完成&#10;之前没有增加flex-wrap，补上了" />
@@ -484,6 +484,7 @@
     <MESSAGE value="popover 功能基本完成" />
     <MESSAGE value="popover 添加默认样式" />
     <MESSAGE value="popover 四个方向基本完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="popover 四个方向基本完成" />
+    <MESSAGE value="使用表驱动编程 重构代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用表驱动编程 重构代码" />
   </component>
 </project>
