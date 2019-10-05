@@ -162,6 +162,7 @@
 
             &::before, &::after {
                 left: 10px;
+                border-bottom: none;
             }
 
             &::before {
@@ -180,6 +181,7 @@
 
             &::before, &::after {
                 left: 10px;
+                border-top: none;
             }
 
             &::before {
@@ -198,6 +200,7 @@
             margin-left: -10px;
 
             &::before, &::after {
+                border-right: none;
                 left: 100%;
                 transform: translateY(-50%);
                 top: 50%;
@@ -219,6 +222,7 @@
             &::before, &::after {
                 transform: translateY(-50%);
                 top: 50%;
+                border-left: none;
             }
 
             &::before {
