@@ -1,6 +1,6 @@
 <template>
     <div class="popover" @click="onClick" ref="popover">
-        <div ref="contentWrapper" class="content-wrapper" v-if="visible">
+        <div ref="contentWrapper" class="content-wrapper" v-if="visible" :class="{[`position-${position}`]:true}">
             <slot name="content"></slot>
         </div>
         <span ref="triggerWrapper" style="display: inline-block">
@@ -17,14 +17,39 @@
                 visible: false
             }
         },
+        props: {
+            position: {
+                type: String,
+                default: 'top',
+                validator(value) {
+                    return ['top', 'bottom', 'left', 'right'].indexOf(value) >= 0
+                }
+            }
+        },
         methods: {
             positionContent() {
-                document.body.appendChild(this.$refs.contentWrapper)
-                let {width, height, left, top} = this.$refs.triggerWrapper.getBoundingClientRect()
-                this.$refs.contentWrapper.style.left = left + window.scrollX + 'px'
-                this.$refs.contentWrapper.style.top = top + window.scrollY + 'px'
+                const {contentWrapper,triggerWrapper} = this.$refs
+                document.body.appendChild(contentWrapper)
+                let {width, height, left, top} = triggerWrapper.getBoundingClientRect()
+                if (this.position === 'top') {
+                    contentWrapper.style.left = left + window.scrollX + 'px'
+                    contentWrapper.style.top = top + window.scrollY + 'px'
+                } else if (this.position === 'bottom') {
+                    contentWrapper.style.left = left + window.scrollX + 'px'
+                    contentWrapper.style.top = top + height + window.scrollY + 'px'
+                }else if (this.position === 'left'){
+                    contentWrapper.style.left = left + window.scrollX + 'px'
+                    let {height:height2} = contentWrapper.getBoundingClientRect()
+                    contentWrapper.style.top = top + window.scrollY + (height-height2)/2 + 'px'
+                }else if (this.position === 'right'){
+                        contentWrapper.style.left = left + width + window.scrollX + 'px'
+                    let {height:height2} = contentWrapper.getBoundingClientRect()
+                    contentWrapper.style.top = top + window.scrollY + (height-height2)/2 + 'px'
+
+                }
+
             },
-            onClickDocument(e){
+            onClickDocument(e) {
                 if (this.$refs.popover &&
                     (this.$refs.popover === e.target ||
                         this.$refs.popover.contains(e.target))) {
@@ -51,7 +76,7 @@
                 if (this.$refs.triggerWrapper.contains(e.target)) {
                     if (this.visible === true) {
                         this.close()
-                    }else{
+                    } else {
                         this.open()
                     }
                 }
@@ -61,8 +86,8 @@
 </script>
 
 <style scoped lang="scss">
-    $border-radius:3px;
-    $border-color:#ccc;
+    $border-radius: 3px;
+    $border-color: #ccc;
     .popover {
         display: inline-block;
         vertical-align: top;
@@ -76,27 +101,97 @@
         /*box-shadow: 0 0 3px #eee;*/
         filter: drop-shadow(0 0 3px #eee);
         background-color: #fff;
-        transform: translateY(-100%);
         padding: .5em 1em;
-        margin-top: -10px;
         max-width: 20em;
 
-        &::before,&::after {
-             content: '';
-             display: block;
-             border: 10px solid transparent;
-            border-top-color: $border-color;
-             width: 0;
-             height: 0;
-             position: absolute;
-             top: 100%;
-             left: 10px;
-         }
-
-        &::after {
-            border-top-color: #fff;
-            top: calc(100% - 1px);
+        &::before, &::after {
+            content: '';
+            display: block;
+            border: 10px solid transparent;
+            width: 0;
+            height: 0;
+            position: absolute;
         }
+
+        &.position-top {
+            transform: translateY(-100%);
+            margin-top: -10px;
+
+            &::before, &::after {
+                left: 10px;
+            }
+
+            &::before {
+                border-top-color: $border-color;
+                top: 100%;
+            }
+
+            &::after {
+                border-top-color: #fff;
+                top: calc(100% - 1px);
+            }
+        }
+
+        &.position-bottom {
+            margin-top: 10px;
+
+            &::before, &::after {
+                left: 10px;
+            }
+
+            &::before {
+                border-bottom-color: $border-color;
+                bottom: 100%;
+            }
+
+            &::after {
+                border-bottom-color: #fff;
+                bottom: calc(100% - 1px);
+            }
+        }
+
+        &.position-left {
+            transform: translateX(-100%);
+            margin-left: -10px;
+
+            &::before, &::after {
+                left: 100%;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+
+            &::before {
+                border-left-color: $border-color;
+            }
+
+            &::after {
+                border-left-color: #fff;
+                left: calc(100% - 1px);
+            }
+        }
+
+        &.position-right {
+            margin-left: 10px;
+
+            &::before, &::after {
+                transform: translateY(-50%);
+                top: 50%;
+            }
+
+            &::before {
+                border-right-color: $border-color;
+                right: 100%;
+            }
+
+            &::after {
+                border-right-color: #fff;
+                right: calc(100% - 1px);
+            }
+        }
+
+
+
+
     }
 
 

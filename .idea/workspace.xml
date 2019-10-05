@@ -95,14 +95,7 @@
       <workItem from="1570084837129" duration="83000" />
       <workItem from="1570102223241" duration="7979000" />
       <workItem from="1570164085047" duration="26490000" />
-      <workItem from="1570241943420" duration="4735000" />
-    </task>
-    <task id="LOCAL-00004" summary="添加icon 和 icon_position属性">
-      <created>1568123325064</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1568123325064</updated>
+      <workItem from="1570241943420" duration="8645000" />
     </task>
     <task id="LOCAL-00005" summary="验证icon_position为left或right中的一个&#10;设置默认值为left（避免出现icon_undefined）">
       <created>1568124083620</created>
@@ -440,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570202795471</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="popover 添加默认样式">
+      <created>1570259688049</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1570259688051</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="row 和 col的雏形完成" />
     <MESSAGE value="基本实现row和col的功能" />
     <MESSAGE value="重构 row col" />
     <MESSAGE value="初步实现响应式，默认就是phone样式" />
@@ -485,6 +484,7 @@
     <MESSAGE value="实现最简单的 popover click-showing" />
     <MESSAGE value="解决 容器有overflow：hidden 造成的bug&#10;（元素追加到body最后）" />
     <MESSAGE value="popover 功能基本完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="popover 功能基本完成" />
+    <MESSAGE value="popover 添加默认样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="popover 添加默认样式" />
   </component>
 </project>
