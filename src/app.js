@@ -51,8 +51,8 @@ new Vue({
         loading2: false,
         loading3: false,
         message: 'I love you .',
-        selectedTab:'sth1'
-
+        selectedTab:'sth1',
+        selectedShow:'2'
     },
     // created() {
     //     this.$toast('这是默认内容，不加html',{
