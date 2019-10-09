@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01bb301b-3b75-4665-a275-073e6730e9d6" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collapse-item.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collapse.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collapse.vue" afterDir="false" />
     </list>
@@ -97,14 +98,7 @@
       <workItem from="1570164085047" duration="26490000" />
       <workItem from="1570241943420" duration="14776000" />
       <workItem from="1570586582653" duration="8124000" />
-      <workItem from="1570600032488" duration="853000" />
-    </task>
-    <task id="LOCAL-00011" summary="第一个元素不需要margin-left">
-      <created>1568166181191</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1568166181191</updated>
+      <workItem from="1570600032488" duration="1725000" />
     </task>
     <task id="LOCAL-00012" summary="安装chai">
       <created>1568167591079</created>
@@ -442,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570592482072</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="添加single选项&#10;可弹出一个还是多个">
+      <created>1570601886088</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1570601886089</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重构col，完成row和col的测试" />
     <MESSAGE value="创建 layout content sider layout 组件" />
     <MESSAGE value="布局组件基本功能完成" />
     <MESSAGE value="添加简单动画" />
@@ -487,6 +487,7 @@
     <MESSAGE value="解决抖动bug" />
     <MESSAGE value="添加插槽的 close API&#10;（slot-scope的使用）" />
     <MESSAGE value="collapse 基本功能 及 样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="collapse 基本功能 及 样式" />
+    <MESSAGE value="添加single选项&#10;可弹出一个还是多个" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加single选项&#10;可弹出一个还是多个" />
   </component>
 </project>
